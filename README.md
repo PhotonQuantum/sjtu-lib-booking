@@ -21,7 +21,7 @@ A simple script that helps you book a seat in library.
 
 ## License
 
-This project is licensed under GNU General Public License v3.0 - see the [LICENSE.md](https://github.com/PhotonQuantum/sjtu-schedule-exporter-cli/LICENSE.md) file for details.
+This project is licensed under GNU General Public License v3.0 - see the [LICENSE.md](https://github.com/PhotonQuantum/sjtu-lib-booking/blob/master/LICENSE.md) file for details.
 
 <p align="center">&mdash;💖&mdash;</p>
 <p align="center"><i>Built with love by LightQuantum</i></p>
