@@ -33,6 +33,8 @@ class BookingManager:
                    'chengnuo': 'on'}
         while True:
             try:
+                self.session.get("http://booking.lib.sjtu.edu.cn/index.asp")
+                self.session.get("http://booking.lib.sjtu.edu.cn/zg.asp")
                 r = self.session.post("http://booking.lib.sjtu.edu.cn/submit_zg.asp", headers=HEADERS, data=payload)
                 break
             except RedirectLoop:
