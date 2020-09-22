@@ -26,10 +26,17 @@ class BookingManager:
             book_date = datetime.now().date()
         profile = self.client.profile
         payload = {'yuyuechangguan': '主馆',
+                   'yuyueshijian': book_date.strftime("%Y-%m-%d"),
                    'user_name': profile.name,
                    'xgh': profile.student_id,
                    'mobile': profile.cellphone,
-                   'yuyueshijian': book_date.strftime("%Y-%m-%d"),
+                   'yuelan': 2,
+                   'shangwuflg1': 0,
+                   'xiawuflg1': 0,
+                   'wanshangflg1': 0,
+                   'shijianduan': ["1", "2", "3"],
+                   'lingshino': 11,
+                   'lingshi_xz': 1000,
                    'chengnuo': 'on'}
         while True:
             try:
